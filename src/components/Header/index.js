@@ -4,8 +4,8 @@ import {HashLink as Link} from 'react-router-hash-link';
 
 function Header() {
   return (
-    <header>
-      <div className="menu" id="home">
+    <header id="home">
+      <div className="menu" >
         <nav>
           <ul>
 
