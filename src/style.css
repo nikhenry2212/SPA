@@ -1,0 +1,47 @@
+header{
+  display: flex;
+  flex-direction: row;
+  height: 90px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: #2e7a7c;
+
+}
+.menu{
+  display: flex;
+
+}
+ul{
+  display: flex;
+}
+nav ul,
+nav li{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav a{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 15px;
+  color: #fff;
+  font-weight: bold;
+}
+.home{
+  width: 100%;
+  height: 600px;
+  background-color: #457ba7;
+}
+.home h1{
+  margin: 0;
+}
+.sobre{
+  width: 100%;
+  height: 600px;
+  background-color: #ddd;
+}
+.sobre h1{
+  margin: 0;
+}
